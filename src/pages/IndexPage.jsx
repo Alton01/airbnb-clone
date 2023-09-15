@@ -18,7 +18,7 @@ export default function IndexPage() {
                 < Link to={'/place/'+place._id} >
                     <div className="bg-gray-500 rounded-2xl mb-2 flex object-cover aspect-square" >
                     {place.photos?.[0] && (
-                        <img className="rounded-2xl" src={'http://localhost:4000/uploads/'+place.photos?.[0]} alt="" />
+                        <img className="rounded-2xl" src={'https://airbnb-api-dtre.onrender.com/uploads/'+place.photos?.[0]} alt="" />
                     )}
                     </div>
                     <h2 className="text-sm truncate">{place.title}</h2>
