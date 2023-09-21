@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "engines": {"node": "18.x"},
+  "proxy": "https://airbnb-api-dtre.onrender.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
