@@ -32,6 +32,6 @@
     "vite": "^4.4.5"
   },
   
-    "proxy": "https://airbnb-api-dtre.onrender.com"
+    "proxy": "https://airbnb-api-dtre.onrender.com/bookings" 
   
 }
