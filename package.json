@@ -2,12 +2,12 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "proxy": "https://airbnb-api-dtre.onrender.com",
   "engines": {"node": "18.x"},
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "proxy": "https://airbnb-api-dtre.onrender.com",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
